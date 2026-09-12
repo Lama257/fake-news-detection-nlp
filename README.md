@@ -1,26 +1,27 @@
-Fake News Detection using NLP
+# Fake News Detection using NLP
 
 This project explores how Natural Language Processing (NLP), Machine Learning, Deep Learning, and Transformer-based models can be applied to automatic fake news detection.
 
 The project compares traditional machine learning models, recurrent neural networks, and BERT for binary text classification and evaluates their performance using accuracy and F1-score.
 
-Dataset
+## Dataset
 
 The project uses two CSV files:
 
-Fake.csv — Fake news articles
-True.csv — Real news articles
+- `Fake.csv` — Fake news articles
+- `True.csv` — Real news articles
 
-The dataset was prepared from Fake.csv and True.csv and used for training and evaluating the implemented models.
+The dataset was prepared from `Fake.csv` and `True.csv` and used for training and evaluating the implemented models.
 
-Dataset Source
+### Dataset Source
 
 The dataset is available through Kaggle:
 
 https://www.kaggle.com/datasets/farjanakabirsamanta/true-fake-news-dataset
 
-Project Structure
+## Project Structure
 
+```text
 fake-news-detection-nlp/
 │
 ├── Fake.csv
@@ -28,7 +29,7 @@ fake-news-detection-nlp/
 ├── fake_news_detection.ipynb
 ├── README.md
 └── .gitignore
-
+```
 Methodology
 
 The project applies different preprocessing and text representation techniques depending on the model.
