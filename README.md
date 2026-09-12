@@ -20,6 +20,7 @@ The dataset is available through Kaggle:
 https://www.kaggle.com/datasets/farjanakabirsamanta/true-fake-news-dataset
 
 Project Structure
+
 fake-news-detection-nlp/
 │
 ├── Fake.csv
@@ -27,6 +28,7 @@ fake-news-detection-nlp/
 ├── fake_news_detection.ipynb
 ├── README.md
 └── .gitignore
+
 Methodology
 
 The project applies different preprocessing and text representation techniques depending on the model.
