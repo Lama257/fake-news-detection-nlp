@@ -68,25 +68,16 @@ https://www.kaggle.com/datasets/farjanakabirsamanta/true-fake-news-dataset
 
 
 
-\## Project Structure
-
-
+## Project Structure
 
 ```text
-
 fake-news-detection-nlp/
-
 │
-
 ├── Fake.csv
-
 ├── True.csv
-
-├── fake\_news\_detection.ipynb
-
-├── .gitignore
-
-└── README.md
+├── fake_news_detection.ipynb
+├── README.md
+└── .gitignore
 
 
 
