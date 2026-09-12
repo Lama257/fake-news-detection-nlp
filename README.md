@@ -30,36 +30,38 @@ fake-news-detection-nlp/
 ├── README.md
 └── .gitignore
 ```
-Methodology
+## Methodology
 
-The project applies different preprocessing and text representation techniques depending on the model.
+The project follows different preprocessing and text representation approaches depending on the type of model.
 
-Text Preprocessing
+### Text Preprocessing
 
-The text data was processed using NLP preprocessing techniques including:
+The text data was processed using the following NLP techniques:
 
-Text cleaning
-Tokenization
-Stemming
-Lemmatization
-TF-IDF
-TF-IDF
+- Text cleaning
+- Tokenization
+- Stemming
+- Lemmatization
 
-TF-IDF was used to represent text for the traditional machine learning models.
+### TF-IDF
 
-The TF-IDF vectorizer used a maximum of 5,000 features.
+TF-IDF was used to convert the text into numerical features for the traditional machine learning models.
 
-Sequence Processing
+The TF-IDF vectorizer was configured with a maximum of 5,000 features.
 
-For the recurrent neural network models, the cleaned text was converted into word sequences and padded to a maximum sequence length of 200 words.
+### Sequence Processing
 
-The models used an embedding layer with a vocabulary size of 5,000 words and an embedding dimension of 128.
+For the recurrent neural network models (LSTM and GRU), the cleaned text was converted into word sequences.
 
-BERT
+- Maximum sequence length: 200 words
+- Vocabulary size: 5,000 words
+- Embedding dimension: 128
 
-BERT was used as the transformer-based approach.
+### BERT
 
-The project used BERT tokenization with a maximum sequence length of 128.
+BERT was used as the transformer-based approach for fake news classification.
+
+The text was tokenized using the BERT tokenizer with a maximum sequence length of 128 tokens.
 
 ## Models
 
